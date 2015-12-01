@@ -312,98 +312,102 @@
 
 	<div class="clearfix"></div>
 	</div>
-	<div class="container twelve columns">
-			<!-- Tabs Navigation -->
-			<ul class="tabs-nav">
-				<li class="active"><a href="#tab1">Технические характеристики</a></li>
-				<li><a href="#tab2">Стоимость аренды</a></li>
-				<li><a href="#tab3">Варианты установки</a></li>
-				<li><a href="#tab4">Примеры работ</a></li>
-			</ul>
+	<div class="clearfix"></div>
+	<div class="container">
+		<div class="four columns"><p style="opacity:0;visibility: hidden;">fix</p></div>
+		<div class="twelve columns">
+				<!-- Tabs Navigation -->
+				<ul class="tabs-nav">
+					<li class="active"><a href="#tab1">Технические характеристики</a></li>
+					<li><a href="#tab2">Стоимость аренды</a></li>
+					<li><a href="#tab3">Варианты установки</a></li>
+					<li><a href="#tab4">Примеры работ</a></li>
+				</ul>
 
-			<!-- Tabs Content -->
-			<div class="tabs-container">
+				<!-- Tabs Content -->
+				<div class="tabs-container">
 
-				<div class="tab-content" id="tab1" style="display: block;">
-					<p>Lorem ipsum pharetra lorem felis. Aliquam egestas consectetur elementum class aptentea taciti sociosqu ad litora torquent perea conubia nostra lorem consectetur adipiscing elit. Donec vestibulum justo a diam ultricies pellentesque. Fusce vehicula libero arcu, vitae ornare turpis elementum at. Etiam posuere quam nec ligula dignissim iaculis donec eleifend laoreet ornare. Quisque mattis luctus est, a placerat elit pharetra.</p>
+					<div class="tab-content" id="tab1" style="display: block;">
+						<p>Lorem ipsum pharetra lorem felis. Aliquam egestas consectetur elementum class aptentea taciti sociosqu ad litora torquent perea conubia nostra lorem consectetur adipiscing elit. Donec vestibulum justo a diam ultricies pellentesque. Fusce vehicula libero arcu, vitae ornare turpis elementum at. Etiam posuere quam nec ligula dignissim iaculis donec eleifend laoreet ornare. Quisque mattis luctus est, a placerat elit pharetra.</p>
+					</div>
+
+					<div class="tab-content" id="tab2" style="display: none;">
+
+						<table class="basic-table">
+							<tbody><tr>
+								<th>Material</th>
+								<td>Wool</td>
+							</tr>
+
+							<tr>
+								<th>Weight</th>
+								<td>0.5 lbs</td>
+							</tr>
+
+							<tr>
+								<th>Size</th>
+								<td>Medium</td>
+							</tr>
+						</tbody></table>
+
+					</div>
+
+					<div class="tab-content" id="tab3" style="display: none;">
+
+						<!-- Reviews -->
+						<section class="comments">
+							<p class="margin-bottom-10">There are no reviews yet.</p>
+
+							<a href="#small-dialog" class="popup-with-zoom-anim button color margin-left-0">Add Review</a>
+
+							<div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+								<h3 class="headline">Add Review</h3><span class="line margin-bottom-25"></span><div class="clearfix"></div>
+
+								<!-- Form -->
+								<form id="add-comment" class="add-comment">
+									<fieldset>
+
+										<div>
+											<label>Name:</label>
+											<input type="text" value="">
+										</div>
+
+										<div>
+											<label>Rating:</label>
+											<span class="rate">
+												<span class="star"></span>
+												<span class="star"></span>
+												<span class="star"></span>
+												<span class="star"></span>
+												<span class="star"></span>
+											</span>
+											<div class="clearfix"></div>
+										</div>
+
+										<div class="margin-top-20">
+											<label>Email: <span>*</span></label>
+											<input type="text" value="">
+										</div>
+
+										<div>
+											<label>Review: <span>*</span></label>
+											<textarea cols="40" rows="3"></textarea>
+										</div>
+
+									</fieldset>
+
+									<a href="#" class="button color">Add Review</a>
+									<div class="clearfix"></div>
+
+								</form>
+							</div>
+
+						</section>
+
+					</div>
+
 				</div>
-
-				<div class="tab-content" id="tab2" style="display: none;">
-
-					<table class="basic-table">
-						<tbody><tr>
-							<th>Material</th>
-							<td>Wool</td>
-						</tr>
-
-						<tr>
-							<th>Weight</th>
-							<td>0.5 lbs</td>
-						</tr>
-
-						<tr>
-							<th>Size</th>
-							<td>Medium</td>
-						</tr>
-					</tbody></table>
-
-				</div>
-
-				<div class="tab-content" id="tab3" style="display: none;">
-
-					<!-- Reviews -->
-					<section class="comments">
-						<p class="margin-bottom-10">There are no reviews yet.</p>
-
-						<a href="#small-dialog" class="popup-with-zoom-anim button color margin-left-0">Add Review</a>
-
-						<div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-							<h3 class="headline">Add Review</h3><span class="line margin-bottom-25"></span><div class="clearfix"></div>
-
-							<!-- Form -->
-							<form id="add-comment" class="add-comment">
-								<fieldset>
-
-									<div>
-										<label>Name:</label>
-										<input type="text" value="">
-									</div>
-
-									<div>
-										<label>Rating:</label>
-										<span class="rate">
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-										</span>
-										<div class="clearfix"></div>
-									</div>
-
-									<div class="margin-top-20">
-										<label>Email: <span>*</span></label>
-										<input type="text" value="">
-									</div>
-
-									<div>
-										<label>Review: <span>*</span></label>
-										<textarea cols="40" rows="3"></textarea>
-									</div>
-
-								</fieldset>
-
-								<a href="#" class="button color">Add Review</a>
-								<div class="clearfix"></div>
-
-							</form>
-						</div>
-
-					</section>
-
-				</div>
-
-			</div>
+		</div>
 	</div>
 	</div>
 
