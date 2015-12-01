@@ -242,7 +242,7 @@
 		// Product Slider
 		//----------------------------------------//
 
-		$('#product-slider').royalSlider({
+		$('.product-slider').royalSlider({
 
 			autoScaleSlider: true,
 			autoScaleSliderWidth: 560,
