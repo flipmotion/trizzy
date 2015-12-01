@@ -2196,12 +2196,12 @@ a.button.color:hover { background-color: #c0c0c0; }
 
 
 /* Custom Margins for Pages */
-.products .pagination-next-prev a.prev { margin: 0 0 0 20px; }
+.products .pagination-next-prev a.prev { margin: 0 0 0 0px; }
 .pagination-next-prev.full-width a.prev { margin: 0 0 0 10px; }
 .pagination-next-prev.full-width a.next { margin: 0 10px 0 0; }
 
 .pagination-container { margin: 0 0 40px 0; }
-.products .pagination-container { margin: 50px 0 0 0; }
+.products .pagination-container { margin: 50px 20px 0 0; }
 .masonry.pagination-container { margin: 20px 0 40px 0; }
 
 
@@ -6564,13 +6564,15 @@ html[xmlns] .slides {display: block;}
 	font-size:14px;
 }
 
+.container .four.shop.columns {
 
+}
 /* Filters
 ------------------------------------- */
 #portfolio-wrapper .portfolio-item { margin-bottom: 20px; }
 
 #filters {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 0px;
 	float: left;
 }
 
