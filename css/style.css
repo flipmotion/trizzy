@@ -7449,3 +7449,27 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 	
 	@media only screen and (max-width: 1024px) {#style-switcher {display: none;}}
+	/*fix modal*/
+	.mfp-content fieldset{
+		width: 100%;
+		box-sizing: border-box;
+		min-width: 0;
+	}
+	.mfp-content .add-comment textarea {
+		    width: 100%;
+		    min-width: 0;
+		    max-width: inherit;
+		    box-sizing: border-box;
+	}
+	.mfp-content .add-comment input {
+	margin: 0 0 20px 0;
+	min-width: 0;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+	/*fix modal END*/
