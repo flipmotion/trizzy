@@ -221,8 +221,11 @@
         .fullwidth .fullwidth-element.home-slider { width: 100% }
 
         .fullwidth .parallax-content     { width: 300px; }
-        .rwd-xs {
+        .rwd-xs-hidden {
             display: none;
+        }
+        .rwd-xs-visible {
+            display: block;
         }
     }
 

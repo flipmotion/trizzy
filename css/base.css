@@ -324,3 +324,6 @@
 	padding: 10px 0;
 	font-weight: bold;
 }
+.rwd-xs-visible {
+	display: none;
+}
