@@ -7312,8 +7312,59 @@ html[xmlns] .slides {display: block;}
 	.checkout-content select.fullwidth {
 		width: 100%;
 	}
-
-
+	h2 {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.container .four.shop.columns {
+    	width: 288px !important;
+    }
+    .container .four.columns {
+    	width: 288px !important;
+    }
+	p {
+		margin: 0 5px 15px 5px;
+	}
+	.container .twelve.columns {
+		width: 288px;
+	}
+	#backtotop {
+		margin: 0 5px 0 0;
+	}
+	#basic-slider, #product-slider, #product-slider-vertical {
+		width: 98%;
+	}
+	.container .six.columns {
+		width: 288px;
+	}
+	#filters {
+    	margin: 10px 0 20px 0px;
+    }
+    .headline {
+    	padding-right: 0;
+    }
+    #filters a {
+    	font-size: 9px;
+    	padding: 6px 3px;
+    }
+    #googlemaps {
+    	height: 300px;
+    }
+    #contact textarea {
+    	width: 90%;
+    	min-width: 0; 
+    }
+    .headline {
+    	font-size: 16px;
+    	line-height: 29px;
+	}
+	.mfp-close {
+	    width: 40px;
+	    height: 40px;
+	}
+	#small-dialog {
+	    padding: 30px 20px 35px 20px;
+	}
 }
 
 
