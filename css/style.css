@@ -7524,3 +7524,23 @@ only screen and (min-device-pixel-ratio: 2) {
 	-webkit-box-sizing: border-box;
 	}
 	/*fix modal END*/
+/*menu left-side*/
+.has-inner-menu {
+	pointer-events:none;
+}
+#categories li ul {
+	display: block;
+}
+#categories li a {
+	
+	background-color: #71be3f;
+	color: #fff;
+	padding: 11px 13px 10px 15px;
+}
+#categories li a:hover span {
+	display: none !important;
+}
+#categories li a span {
+	display: none !important;
+}
+/*menu left-side END*/
