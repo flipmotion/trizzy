@@ -7544,3 +7544,8 @@ only screen and (min-device-pixel-ratio: 2) {
 	display: none !important;
 }
 /*menu left-side END*/
+ul.with-dots {
+	margin-bottom: 20px;
+	padding-left: 15px;
+	list-style-type: disc;
+}
