@@ -180,6 +180,7 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
+        .row {margin-left: 0!important;margin-right: 0!important;}
         .container { width: 300px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -236,6 +237,7 @@
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .row {margin-left: 0!important;margin-right: 0 !important;}
         .container { width: 420px; }
         .container .columns,
         .container .column { margin: 0; }
