@@ -6565,7 +6565,7 @@ html[xmlns] .slides {display: block;}
 }
 
 .container .four.shop.columns {
-
+	margin-bottom: 20px;
 }
 /* Filters
 ------------------------------------- */
