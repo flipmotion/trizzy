@@ -7549,3 +7549,10 @@ ul.with-dots {
 	padding-left: 15px;
 	list-style-type: disc;
 }
+/*row offset columns*/
+.row {
+	margin-left: -10px;
+	margin-right: -10px;
+	clear:both;
+}
+/*row offset columns END*/
