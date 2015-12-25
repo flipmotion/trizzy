@@ -112,7 +112,7 @@
 		$('.tp-banner').revolution({
 			delay:9000,
 			startwidth:1290,
-			startheight:480,
+			startheight:240,
 			hideThumbs:10,
 			hideTimerBar:"on",
 			onHoverStop: "on",

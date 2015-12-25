@@ -3356,7 +3356,7 @@ blockquote {
 ---------------------------------------------------------------------- */
 .tp-banner-container {
 	margin: 0 0 50px 0;
-	max-height: 480px;
+	max-height: 240px;
 }
 
 /* SMOOTHER ANIMATION ON ANDROID */
